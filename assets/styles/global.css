@@ -1,0 +1,29 @@
+body {
+  background: #444;
+}
+* {
+  color: #fff;
+  font-size: 110%;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+li {
+  text-decoration: none;
+}
+img {
+    background: black;
+}
+
+
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
